@@ -2,20 +2,14 @@ html {
     background: orange;
     background-size: cover;
     font-family: 'helvetica neue';
-    text-align: center;
     font-size: 10px;
   }
   body {
     margin: 0;
-    font-size: 2rem;
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
   }
   .clock {
-    width: 290px;
-    height: 290px;
+    width: 200px;
+    height: 200px;
     border: 5px solid white;
     border-radius: 50%;
     margin: 50px auto;
@@ -44,3 +38,24 @@ html {
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
+  .clockParent{
+      margin-top: 13%;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      align-items: center;
+  }
+  span{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+a{
+    text-decoration-color: white;
+}
+.title{
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 15%
+}
